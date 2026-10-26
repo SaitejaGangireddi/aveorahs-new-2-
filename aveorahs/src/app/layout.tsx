@@ -1,16 +1,6 @@
+import React from "react";
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
 
 export const metadata: Metadata = {
   title: "Aveorahs Interiors | Luxury Interior Design Studio Hyderabad",
@@ -59,9 +49,7 @@ const jsonLd = {
     postalCode: "500084",
     addressCountry: "IN",
   },
-  sameAs: [
-    "https://instagram.com/aveorahs_interiors",
-  ],
+  sameAs: ["https://instagram.com/aveorahs_interiors"],
   founder: {
     "@type": "Person",
     name: "Veenasree Reddy",
@@ -74,7 +62,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="en">
       <head>
         <meta
           name="google-site-verification"
