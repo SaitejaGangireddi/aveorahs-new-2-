@@ -68,7 +68,7 @@ export default function Hero() {
 
           <div className="relative rounded-3xl overflow-hidden border border-[#E5C158]/30 shadow-[0_25px_60px_rgba(0,0,0,0.7)] group bg-[#241815]">
             <img
-              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85"
+              src="https://res.cloudinary.com/dmkjnuolr/image/upload/v1793005414/Warm_Luxury_AVEORAHS_Reception_pvkabn.png"
               alt="Private Villa Residence by Aveorahs"
               className="w-full h-[440px] sm:h-[520px] object-cover transition-transform duration-700 group-hover:scale-105"
             />
