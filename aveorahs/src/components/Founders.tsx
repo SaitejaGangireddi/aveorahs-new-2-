@@ -24,7 +24,7 @@ export default function Founders() {
       <div className="max-w-4xl mx-auto rounded-3xl overflow-hidden bg-[#241815] border border-[#C98242]/30 hover:border-[#E5C158]/50 transition-all duration-500 flex flex-col md:flex-row shadow-2xl relative">
         <div className="md:w-5/12 relative h-80 md:h-auto overflow-hidden shrink-0">
           <img
-            src="https://res.cloudinary.com/dmkjnuolr/image/upload/v1791974809/Warm_Executive_Office_Portrait_lbi6qv.png"
+            src="https://res.cloudinary.com/dmkjnuolr/image/upload/v1793004593/IMG_2418_1_f1ak2i.jpg"
             alt="Veenasree Reddy - Founder of Aveorahs"
             className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
           />
