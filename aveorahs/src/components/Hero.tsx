@@ -80,11 +80,11 @@ export default function Hero() {
                   Featured Work
                 </span>
                 <h4 className="text-base font-serif text-white tracking-wide">
-                  Private Villa Residence
+                  Derma and Ortho Clinic
                 </h4>
                 <div className="flex items-center gap-1.5 text-[10px] text-[#D6C7B2] pt-0.5">
                   <MapPin className="w-3 h-3 text-[#E5C158] shrink-0" />
-                  <span>Jubilee Hills, Hyderabad</span>
+                  <span>Kondapur, Hyderabad</span>
                 </div>
               </div>
 
