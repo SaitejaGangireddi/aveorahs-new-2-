@@ -69,7 +69,7 @@ export default function Hero() {
           <div className="relative rounded-3xl overflow-hidden border border-[#E5C158]/30 shadow-[0_25px_60px_rgba(0,0,0,0.7)] group bg-[#241815]">
             <img
               src="https://res.cloudinary.com/dmkjnuolr/image/upload/v1793005414/Warm_Luxury_AVEORAHS_Reception_pvkabn.png"
-              alt="Private Villa Residence by Aveorahs"
+              alt="Kondapur Clinic"
               className="w-full h-[440px] sm:h-[520px] object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#241815]/95 via-transparent to-transparent pointer-events-none" />
