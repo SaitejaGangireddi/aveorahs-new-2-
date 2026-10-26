@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Aveorahs Interiors | Luxury Interior Design Studio Hyderabad",
   description:
     "Aveorahs Interiors is a bespoke interior design and architectural studio in Kondapur, Hyderabad, led by Veenasree Reddy. Specializing in luxury residential and turnkey execution.",
+  verification: {
+    google: "qBnDD2nHmYVlDSTOxpfvgYH0ZDbeSxs6toHUTbzvTSI",
+  },
   keywords: [
     "Aveorahs",
     "Aveorahs Interiors",
@@ -73,6 +76,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <head>
+        <meta
+          name="google-site-verification"
+          content="qBnDD2nHmYVlDSTOxpfvgYH0ZDbeSxs6toHUTbzvTSI"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
