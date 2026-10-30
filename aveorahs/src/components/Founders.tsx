@@ -21,14 +21,13 @@ export default function Founders() {
         </p>
       </div>
 
-      <div className="max-w-4xl mx-auto rounded-3xl overflow-hidden bg-[#241815] border border-[#C98242]/30 hover:border-[#E5C158]/50 transition-all duration-500 flex flex-col md:flex-row shadow-2xl relative">
-        <div className="md:w-5/12 relative h-80 md:h-auto overflow-hidden shrink-0">
+      <div className="max-w-4xl mx-auto rounded-3xl overflow-hidden bg-[#241815] border border-[#C98242]/30 hover:border-[#E5C158]/50 transition-all duration-500 flex flex-col md:flex-row shadow-2xl relative items-center">
+        <div className="w-full md:w-5/12 relative flex items-center justify-center p-4 md:p-6 shrink-0 bg-[#1c1210]">
           <img
             src="https://res.cloudinary.com/dmkjnuolr/image/upload/v1793004593/IMG_2418_1_f1ak2i.jpg"
             alt="Veenasree Reddy - Founder of Aveorahs"
-            className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            className="w-full h-auto max-h-[460px] object-contain rounded-2xl transition-transform duration-700 hover:scale-[1.02]"
           />
-          <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#241815] via-transparent to-transparent opacity-80" />
         </div>
 
         <div className="p-8 md:p-10 md:w-7/12 flex flex-col justify-between space-y-6">
